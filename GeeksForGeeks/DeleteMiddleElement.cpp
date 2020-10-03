@@ -1,6 +1,8 @@
-// Delete middle element of a stack
+//Program to Delete middle element of a stack
 
 #include<bits/stdc++.h>
+//#include<iostream.h>
+//#include<stack>
 using namespace std;
 
 stack <int> deleteMid (stack <int> s, int sizeOfStack, int current);
@@ -85,4 +87,5 @@ stack <int> deleteMid (stack <int> s, int n, int current)
 	}
     
 	return s;
+	//"s" is returned to main function call
 }
